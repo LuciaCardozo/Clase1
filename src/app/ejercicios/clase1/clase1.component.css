@@ -1,0 +1,39 @@
+.btnCustom:active{
+    background-color: rgb(185, 185, 185);
+    color: white;
+}
+
+.colorCustomVerde{
+    background-color: #7dfc00b5;
+}
+
+.colorCustomNaranja{
+    background-color: #fc6500b5;
+}
+
+.btnCustom{
+    width: 6%;
+    height: 10vh;
+    border-radius: 50px;
+    border: none;
+    color: #825555;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 10px;
+    margin-right: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px #5e5ebf;
+}
+
+.dFlexCenterCenter{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.dGridCenterCenter{
+    display: grid; 
+    justify-content: center; 
+    align-items: center;
+}
